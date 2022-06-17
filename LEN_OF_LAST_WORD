@@ -1,0 +1,15 @@
+class Len_of_Last_Word {
+    public int lengthOfLastWord(String s) {
+        int len = s.length()
+        int val = 0;
+        while(n > 0){
+            if(s.charAt(--n) != ' '){
+                val++;
+            }
+            else if(val > 0){
+                return val;
+            } 
+        }
+        return val;
+    }
+}
